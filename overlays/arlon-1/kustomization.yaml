@@ -19,4 +19,4 @@ patches:
     group: infrastructure.cluster.x-k8s.io
     version: v1beta1
     kind: AWSMachineTemplate
-  path: patch2.yaml
+  path: patch0.yaml
