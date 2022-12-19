@@ -9,7 +9,7 @@ patches:
     group: cluster.x-k8s.io
     version: v1beta1
     kind: MachineDeployment
-    name: capi-quickstart-eks-md-0
+    name: arlon-local-3-patches-capi-quickstart-eks-md-0
   path: patch.yaml
 - target:
     group: controlplane.cluster.x-k8s.io
