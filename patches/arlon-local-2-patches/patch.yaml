@@ -2,6 +2,6 @@
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: MachineDeployment
 metadata:
-  name: .*
+  name: arlon-local-2-patches-api-quickstart-eks-md-0
 spec:
   replicas: 2
