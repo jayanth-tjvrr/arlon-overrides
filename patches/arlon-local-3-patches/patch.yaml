@@ -1,7 +1,0 @@
----
-apiVersion: cluster.x-k8s.io/v1beta1
-kind: MachineDeployment
-metadata:
-  name: arlon-local-3-patches-capi-quickstart-eks-md-0
-spec:
-  replicas: 2
