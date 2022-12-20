@@ -1,0 +1,23 @@
+---
+apiVersion: cluster.x-k8s.io/v1beta1
+kind: MachineDeployment
+metadata:
+  name: capi-quickstart-eks-md-0
+spec:
+  replicas: 2
+---
+apiVersion: controlplane.cluster.x-k8s.io/v1beta1
+kind: AWSManagedControlPlane
+metadata:
+  name: capi-quickstart-eks-control-plane
+spec:
+  sshKeyName: jay
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: AWSMachineTemplate
+metadata:
+  name: capi-quickstart-eks-md-0
+spec:
+  template:
+    spec:
+      sshKeyName: jay
