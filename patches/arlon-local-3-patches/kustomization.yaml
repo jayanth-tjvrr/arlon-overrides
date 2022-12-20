@@ -5,4 +5,4 @@ resources:
 configurations:
 - configurations.yaml
 patchesStrategicMerge:
-- /Users/jayanthr/patch.yaml
+- patch.yaml
